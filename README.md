@@ -7,7 +7,7 @@ Dự án Next.js mô tả chức năng undo redo
 Clone repo
 
 ```bash
-git clone 
+git clone https://github.com/dunghm98/undo-redo-app.git
 cd undo-redo-app
 npm install
 ```
