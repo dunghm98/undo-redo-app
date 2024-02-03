@@ -22,7 +22,7 @@ const Editor = () => {
   const dispatch = useDispatch()
   const handleAddInput = useCallback(() => {
     dispatch(addInput())
-  }, [dispatch, currentState])
+  }, [dispatch])
 
   const handleUndo = useCallback(() => {
     if (undoStack.length) {
