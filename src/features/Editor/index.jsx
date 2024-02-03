@@ -61,13 +61,13 @@ const Editor = () => {
               label='Undo'
               type='icon'
               onClick={handleUndo}
-              icon={LuUndo}
+              Icon={LuUndo}
               disabled={undoStack.length === 0}
             />
             <Button
               label='Redo'
               type='icon'
-              icon={LuRedo}
+              Icon={LuRedo}
               onClick={handleRedo}
               disabled={redoStack.length === 0}
             />
@@ -75,7 +75,7 @@ const Editor = () => {
           <Button
             label='Add Input'
             type='icon'
-            icon={IoMdAdd}
+            Icon={IoMdAdd}
             onClick={handleAddInput}
           />
         </div>
